@@ -13,7 +13,7 @@ open class ElasticModalViewController: UIViewController, ElasticMenuTransitionDe
   public var dragDownTransformType:ElasticTransitionBackgroundTransform = .subtle
   public var dragRightTransformType:ElasticTransitionBackgroundTransform = .translatePull
   
-  lazy var modalTransition:ElasticTransition = {
+  lazy public var modalTransition:ElasticTransition = {
     let transition = ElasticTransition()
     transition.edge = .bottom
     transition.sticky = true
