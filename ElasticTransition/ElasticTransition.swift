@@ -56,7 +56,7 @@ func avg(_ a:CGFloat, _ b:CGFloat) -> CGFloat{
   return (a+b)/2
 }
 @available(iOS 7.0, *)
-public class ElasticTransition: EdgePanTransition, UIGestureRecognizerDelegate{
+open class ElasticTransition: EdgePanTransition, UIGestureRecognizerDelegate{
 
   /**
    The curvature of the elastic edge.
