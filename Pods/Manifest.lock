@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   MotionAnimation:
-    :commit: 5a5ec73da34c822c821d5fab4d5046b03e9b6d46
+    :commit: 9185c84a807376a9f5a737e7ddcc03c0ef5ee0f8
     :git: https://github.com/cristipetra/MotionAnimation.git
 
 SPEC CHECKSUMS:
